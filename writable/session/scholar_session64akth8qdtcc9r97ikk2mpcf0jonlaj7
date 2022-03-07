@@ -1,0 +1,10 @@
+__ci_last_regenerate|i:1616854340;message|s:300:"<!-- DEBUG-VIEW START 1 SYSTEMPATH/Validation/Views/list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>The Username or Email Address field is required.</li>
+					<li>The Password field is required.</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Validation/Views/list.php -->
+";__ci_vars|a:1:{s:7:"message";s:3:"new";}_ci_previous_url|s:32:"http://pannation.test/auth/login";

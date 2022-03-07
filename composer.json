@@ -1,0 +1,38 @@
+{
+    "name": "codeigniter4/codeigniter4",
+    "type": "project",
+    "description": "The CodeIgniter framework v4",
+    "homepage": "https://codeigniter.com",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "ext-curl": "*",
+        "ext-intl": "*",
+        "ext-json": "*",
+        "kint-php/kint": "^3.3",
+        "psr/log": "^1.1",
+        "laminas/laminas-escaper": "^2.6",
+        "phpmailer/phpmailer": "^6.1",
+        "pusher/pusher-php-server": "^4.1",
+        "dompdf/dompdf": "^1.0",
+        "mpdf/mpdf": "^8.0",
+        "andegna/calender": "^2.2",
+        "phpoffice/phpspreadsheet": "^1.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeIgniter\\": "system/"
+        }
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "@composer dump-autoload",
+            "CodeIgniter\\ComposerScripts::postUpdate"
+        ]
+    },
+    "support": {
+        "forum": "http://forum.codeigniter.com/",
+        "source": "https://github.com/codeigniter4/CodeIgniter4",
+        "slack": "https://codeigniterchat.slack.com"
+    }
+}

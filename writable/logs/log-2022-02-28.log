@@ -1,0 +1,22 @@
+CRITICAL - 2022-02-28 05:21:25 --> Undefined variable: subject
+#0 /home/vinnyvinny/code/projects/aspire/app/Views/Classes/view.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/vinnyvinn...', 3, Array)
+#1 /home/vinnyvinny/code/projects/aspire/system/View/View.php(246): include('/home/vinnyvinn...')
+#2 /home/vinnyvinny/code/projects/aspire/system/Common.php(1119): CodeIgniter\View\View->render('Classes/view', Array, true)
+#3 /home/vinnyvinny/code/projects/aspire/app/Controllers/Classes/Classes.php(56): view('Classes/view', Array)
+#4 /home/vinnyvinny/code/projects/aspire/app/Controllers/Classes/Classes.php(44): App\Controllers\Classes\Classes->_renderSection('Classes/view', Array)
+#5 /home/vinnyvinny/code/projects/aspire/system/CodeIgniter.php(920): App\Controllers\Classes\Classes->view('79')
+#6 /home/vinnyvinny/code/projects/aspire/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes\Classes))
+#7 /home/vinnyvinny/code/projects/aspire/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vinnyvinny/code/projects/aspire/index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-28 05:24:00 --> Undefined variable: optional
+#0 /home/vinnyvinny/code/projects/aspire/app/Views/Classes/view.php(588): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/vinnyvinn...', 588, Array)
+#1 /home/vinnyvinny/code/projects/aspire/system/View/View.php(246): include('/home/vinnyvinn...')
+#2 /home/vinnyvinny/code/projects/aspire/system/Common.php(1119): CodeIgniter\View\View->render('Classes/view', Array, true)
+#3 /home/vinnyvinny/code/projects/aspire/app/Controllers/Classes/Classes.php(56): view('Classes/view', Array)
+#4 /home/vinnyvinny/code/projects/aspire/app/Controllers/Classes/Classes.php(44): App\Controllers\Classes\Classes->_renderSection('Classes/view', Array)
+#5 /home/vinnyvinny/code/projects/aspire/system/CodeIgniter.php(920): App\Controllers\Classes\Classes->view('79')
+#6 /home/vinnyvinny/code/projects/aspire/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes\Classes))
+#7 /home/vinnyvinny/code/projects/aspire/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vinnyvinny/code/projects/aspire/index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}

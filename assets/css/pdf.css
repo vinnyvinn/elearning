@@ -1,0 +1,41 @@
+.pr-20 {
+    padding-right: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.image-border {
+    border: 1px solid rgba(219, 220, 227, 0.64);
+}
+
+.img-thumbnail {
+    width: 150px;
+    height: auto;
+}
+
+/*td {*/
+/*    vertical-align: top;*/
+/*    text-align: left;*/
+/*    padding-right: 1rem;*/
+/*}*/
+
+.with-border {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.with-border tr td {
+    border: 1px solid black;
+}
+.with-border tr th {
+    border: 1px solid black;
+}
+.text-right{
+    text-align: right !important;
+}
